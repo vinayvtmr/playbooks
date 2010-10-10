@@ -1,0 +1,7 @@
+- name: tower
+  hosts: web
+  tasks:
+      - name: install ftp
+        yum:
+            name: vsftpd
+            state: installed  
