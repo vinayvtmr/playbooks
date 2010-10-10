@@ -5,3 +5,7 @@
         yum:
             name: vsftpd
             state: installed  
+      - name: install samba
+        yum:
+            name: samba
+            state: installed  
